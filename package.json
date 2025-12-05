@@ -1,0 +1,19 @@
+{
+  "name": "copilot-agents-via-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "mcp:start": "node src/mcp-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
